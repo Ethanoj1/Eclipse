@@ -2918,7 +2918,7 @@ local function hmac(hash_func, key, message)
 end
 
 
-_G.Eclipse.sha = {
+local sha = {
    md5        = md5,                                                                                                                   -- MD5
    sha1       = sha1,                                                                                                                  -- SHA-1
    -- SHA2 hash functions:
@@ -2957,3 +2957,7 @@ block_size_for_HMAC = {
    [sha.sha3_384]   = (1600 - 2 * 384) / 8,
    [sha.sha3_512]   = (1600 - 2 * 512) / 8,
 }
+
+
+--Add support for Eclipse
+_G.Eclipse.sha = sha
