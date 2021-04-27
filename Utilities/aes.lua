@@ -217,3 +217,8 @@ u=ciphermode.decryptString(l,s,ciphermode.decryptOFB,d)elseif r==CFBMODE then
 u=ciphermode.decryptString(l,s,ciphermode.decryptCFB,d)elseif r==CTRMODE then
 u=ciphermode.decryptString(l,s,ciphermode.decryptCTR,d)else error("Unknown mode",2)end;result=util.unpadByteString(u)
 if(result==nil)then return nil end;return result end
+
+return {
+    encrypt = encrypt,
+    decrypt = decrypt
+}
