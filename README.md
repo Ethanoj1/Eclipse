@@ -11,8 +11,7 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 ## Compatibility
 Eclipse is compatible with the following:
 * Synapse X (Chat included)
-* Scriptware (Chat included)
-* Sentinel 
+* Scriptware Windows (Chat included)
 * Krnl (Chat included)
 
 ## More Info
