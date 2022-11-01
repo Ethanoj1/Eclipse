@@ -1,4 +1,8 @@
-if not game:IsLoaded() then game.Loaded:wait() end;
+if not game:IsLoaded() then 
+  print("Waiting on game load...")
+  game.Loaded:Wait() 
+  print("Game loaded...")
+end;
 task.wait(5);
 getgenv().mainKey = "%s";
 getgenv()._flags = '%s';
