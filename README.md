@@ -10,10 +10,8 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 ```
 ## Compatibility
 Eclipse is compatible with the following:
-* ~Synapse X (Chat included)~
-* ~Scriptware Windows (Chat included)~
-* Krnl (Chat included)
-* Electron (Chat included?)
+* Wave
+* Electron
 
 ## More Info
 Visit the website (linked at top) for more information about me, Eclipse Hub's features, Eclipse Premium prices, and more!
