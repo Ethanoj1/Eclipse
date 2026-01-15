@@ -10,12 +10,12 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 ```
 ## Compatibility
 Eclipse is compatible with the following:
-* Zenith
+* Volt
 * Potassium
 * Wave
 * Volcano
-* Swift
 * Valex
+* Velocity (?)
 
 ## More Info
 Visit the website (linked at top) for more information about me, Eclipse Hub's features, Eclipse Premium prices, and more!
