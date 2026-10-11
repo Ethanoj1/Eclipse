@@ -24,7 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Executor (Please include the following):**
- - Executor: [e.g. Synapse X]
+ - Executor: [e.g. Volt]
  - Executor Version [e.g. v0.0.1]
  - Hub Version [e.g. v0.1.1]
 

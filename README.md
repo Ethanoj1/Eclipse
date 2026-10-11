@@ -13,9 +13,8 @@ Eclipse is compatible with the following:
 * Volt
 * Potassium
 * Wave
-* Volcano
-* Valex
-* Velocity (?)
+* Real
+* Delta (?)
 
 ## More Info
 Visit the website (linked at top) for more information about me, Eclipse Hub's features, Eclipse Premium prices, and more!
