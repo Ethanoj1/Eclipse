@@ -10,7 +10,7 @@ xpcall(function()
     end
     local f = b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}});
     print("Response:", f.Success, f.StatusCode);
-    if not f.Body:find("startup") then
+    if not f.Body:find("_init") then
         setclipboard(f.Body);
         return warn("❌ Test failed due to invalid body:", f.Body);
     end
